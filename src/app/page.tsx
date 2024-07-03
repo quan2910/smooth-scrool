@@ -3,6 +3,8 @@
 import Intro from "@/components/Intro";
 import styles from "./page.module.css";
 import { useEffect } from "react";
+import Description from "@/components/Description";
+import Project from "@/components/Project";
 
 export default function Home() {
   useEffect(() => {
@@ -15,8 +17,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Intro />
-      <div></div>
-      <div></div>
+      <Description />
+      <Project />
     </main>
   );
 }

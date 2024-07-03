@@ -24,6 +24,11 @@
   filter: brightness(70%);
 }
 
+.introImage img {
+  object-fit: cover;
+  object-position: top;
+}
+
 .introContainer h1 {
   color: white;
   font-size: 7vw;
